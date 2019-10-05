@@ -4,7 +4,7 @@ def fizz_buzz(input):
     if input % 3 == 0:
         return "Fizz"
     if input % 5 == 0:
-        result = "Buzz"
+        return "Buzz"
 
 
 print(fizz_buzz(15))
